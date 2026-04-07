@@ -64,7 +64,18 @@ It aligns with industry trends toward:
 - Matplotlib  
 
 ---
+## 📈 Sample Results
+- Baseline alerts generated: 8  
+- False positives (rules-based): 3 (37.5%)  
+- Machine learning model improved precision and reduced false positives  
 
+Note: Results are based on simulated data for demonstration purposes.
+
+---
+## 💼 Business Impact
+Reducing false positives improves investigator capacity, reduces alert backlog, and enables more efficient allocation of compliance resources.
+
+---
 ## 🚀 Future Improvements
 - Incorporate real transaction datasets for validation  
 - Explore advanced models (e.g. XGBoost, Random Forest)  
