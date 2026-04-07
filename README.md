@@ -30,11 +30,13 @@ A traditional rules-based alert system is compared against a logistic regression
 ---
 
 ## 📊 Key Results
-- Reduction in false positive alerts  
-- Improved precision in identifying high-risk transactions  
-- Demonstrated potential reduction in investigation workload  
+- Baseline alerts generated: 8  
+- False positives (rules-based): 3 (37.5%)  
+- Machine learning model improved precision and reduced false positives  
 
-> *Note: Results are based on simulated data and intended to demonstrate conceptual and technical approach.*
+This demonstrates how ML can enhance alert quality and reduce unnecessary investigation workload.
+
+Note: Results are based on simulated data for demonstration purposes.
 
 ---
 
@@ -67,14 +69,6 @@ It aligns with industry trends toward:
 - NumPy  
 - Scikit-learn  
 - Matplotlib  
-
----
-## 📈 Sample Results
-- Baseline alerts generated: 8  
-- False positives (rules-based): 3 (37.5%)  
-- Machine learning model improved precision and reduced false positives  
-
-Note: Results are based on simulated data for demonstration purposes.
 
 ---
 ## 💼 Business Impact
