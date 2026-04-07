@@ -7,6 +7,11 @@ A traditional rules-based alert system is compared against a logistic regression
 
 ---
 
+## 📂 Access Notebook
+👉 [View Full Notebook](https://github.com/FarzeanHassim/transaction-monitoring-ml-false-positive-reduction/blob/main/transaction_monitoring_optimization_ml.ipynb)
+
+---
+
 ## 🎯 Objective
 - Simulate transaction monitoring alert generation  
 - Identify inefficiencies in rule-based detection  
