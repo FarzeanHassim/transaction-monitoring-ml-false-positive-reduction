@@ -57,15 +57,27 @@ This demonstrates how ML can enhance existing transaction monitoring systems rat
 
 ---
 
-## 📊 Key Results
+## 📊 Key Result
 
-- Baseline alerts generated: 8  
-- False positives (rules-based): 3 (37.5%)  
-- False positives (ML-based): 0  
+The machine learning model demonstrates improved precision in identifying true high-risk cases, reducing false positives compared to the rules-based approach.
 
-The machine learning model significantly reduced false positives, demonstrating improved precision and more efficient alert prioritisation.
+However, results are based on a small simulated dataset and may not generalise to real-world environments.
 
-Note: Results are based on simulated data for demonstration purposes.
+This highlights the importance of data quality, feature engineering, and model governance in production AML systems.
+
+---
+
+## 💼 Business Impact
+
+This project demonstrates how financial institutions can:
+
+- Reduce false positives in transaction monitoring systems  
+- Improve investigator efficiency by prioritising high-quality alerts  
+- Enhance detection precision through data-driven models  
+- Support scalable AML operations through model-based optimisation  
+- Bridge the gap between detection systems and operational workflows  
+
+This reflects how modern AML platforms integrate machine learning into surveillance systems to improve both detection quality and operational efficiency.
 
 ---
 
@@ -94,6 +106,21 @@ This demonstrates the value of hybrid approaches combining rules-based detection
 
 ---
 
+## 🔄 Evolution Towards AI-Enabled Alert Optimisation
+
+While this project focuses on machine learning-based optimisation, it represents an intermediate layer within a broader AI-enabled AML operating model.
+
+Potential enhancements include:
+
+- LLM-based alert explanation and summarisation  
+- AI-assisted triage and prioritisation workflows  
+- Integration with case review copilots for downstream decision support  
+- Agentic workflows to dynamically adjust alert thresholds and prioritisation  
+
+This reflects the shift from static rules-based systems toward hybrid and AI-assisted transaction monitoring architectures.
+
+---
+
 ## 🏦 Real-World Application
 
 This solution is relevant for:
@@ -117,16 +144,6 @@ It aligns with industry trends toward:
 - Matplotlib  
 
 ---
-
-## 💼 Business Impact
-
-- Reduces false positives, improving investigator efficiency  
-- Decreases alert backlog in transaction monitoring systems  
-- Enables higher-quality alert prioritisation  
-- Supports scalable, data-driven financial crime detection frameworks
-- Improves precision of alert generation, reducing operational cost in compliance functions
-
----
   
 ## ⚠️ Model Considerations
 
@@ -140,6 +157,12 @@ In real-world deployment, models require ongoing monitoring, validation, and gov
 - Explore advanced models (e.g. XGBoost, Random Forest)  
 - Implement real-time scoring pipeline  
 - Develop dashboard for monitoring alert trends and model performance  
+
+---
+
+## 🎯 Key Takeaway
+
+This project demonstrates how transaction monitoring systems can be enhanced through machine learning-based optimisation, improving alert quality, prioritisation, and operational efficiency within AML workflows.
 
 ---
 
