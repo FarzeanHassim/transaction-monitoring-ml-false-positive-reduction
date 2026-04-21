@@ -79,6 +79,8 @@ This project demonstrates how financial institutions can:
 
 This reflects how modern AML platforms integrate machine learning into surveillance systems to improve both detection quality and operational efficiency.
 
+In high-volume environments, even small improvements in false positive rates can significantly reduce operational workload, making rule tuning and alert optimisation critical components of scalable AML systems.
+
 ---
 
 ## ⚙️ Decisioning Enhancement
@@ -103,6 +105,8 @@ Machine learning enhances these systems by:
 - Supporting more efficient allocation of investigation resources  
 
 This demonstrates the value of hybrid approaches combining rules-based detection with ML-driven optimisation.
+
+This mirrors real-world transaction monitoring environments where rule tuning and model outputs must be continuously calibrated to balance detection sensitivity and false positive rates.
 
 ---
 
@@ -159,10 +163,25 @@ In real-world deployment, models require ongoing monitoring, validation, and gov
 - Develop dashboard for monitoring alert trends and model performance  
 
 ---
+🔗 Extension to Cryptocurrency Monitoring
 
-## 🎯 Key Takeaway
+While this project is built using simulated fintech transaction data, the detection and optimisation logic is directly applicable to cryptocurrency transaction monitoring environments.
 
-This project demonstrates how transaction monitoring systems can be enhanced through machine learning-based optimisation, improving alert quality, prioritisation, and operational efficiency within AML workflows.
+In traditional systems, monitoring focuses on customer accounts and transaction activity. In crypto environments, this shifts toward wallet-level behaviour, transaction flows across addresses, and network-based movement of funds.
+
+The same core financial crime patterns apply — including transaction velocity, structuring, and behavioural anomalies — but are expressed through rapid fund movement, multi-hop transfers across wallets, and interconnected transaction paths.
+
+This project demonstrates how rule-based detection can be enhanced with machine learning to refine alert quality, reduce false positives, and improve prioritisation — capabilities that are critical in high-volume crypto environments where transaction speed and scale significantly increase noise within monitoring systems.
+
+From a rule tuning perspective, this approach supports more precise threshold calibration and dynamic alert optimisation, enabling detection systems to maintain sensitivity to suspicious behaviour while reducing unnecessary investigation workload.
+
+---
+
+🎯 Key Takeaway
+
+This project demonstrates how transaction monitoring systems can evolve from static rules-based detection into hybrid rule + machine learning frameworks that improve precision, reduce false positives, and enhance operational efficiency.
+
+The core focus is on improving signal quality — ensuring that alerts generated are both meaningful and actionable — which is essential in scaling transaction monitoring systems across both traditional financial and cryptocurrency environments.
 
 ---
 
